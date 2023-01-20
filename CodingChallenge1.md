@@ -10,7 +10,7 @@ You are developing an application that will show a list of companies along with 
   - [ ] The company’s page should be a view of a single company at the route `/companies/:companyId`.
   - [ ] View should show the metadata fields for the company (Segment, Region, and Industry).
   - [ ] View should show each department name in that company along with the number of employees in that department.
-  - [ ] Per department, the view should include a list of every employee with avatar image, name, title, and country associated with that department.
+  - [ ] For each department, the view should list every employee with avatar image, name, title, and country associated with that employee.
   - [ ] Breadcrumbs should be updated to reflect the new route added.
 - [ ] Somewhere of your choosing in the UI, the application should have the ability to edit the name of a company and save it to the database.
 

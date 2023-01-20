@@ -1,19 +1,21 @@
 # Getting Started
 ## Installing Dependencies
+You can use `npm` or `yarn` for this repo. Newer Macbooks with the M1 chip should use `yarn`.
+
 Install Server Dependencies 
 ```
-npm install
+yarn install
 ```
 Install Client Dependencies
 ```
 cd client/
-npm install
+yarn install
 ```
 
 ## Start Development Server
 To start the server, run the following:
 ```
-npm run dev
+yarn run dev
 ```
 
 # Database
@@ -24,7 +26,7 @@ npm run dev
 ## Seeding Database
 The repository comes with the database pre-seeded. If you need to reset the database to its original state, run the following:
 ```
-npm run seed
+yarn run seed
 ```
 
 ## Running SQL Queries on the Database
@@ -37,8 +39,8 @@ If needed for your coding challenge, you may change the structure of the databas
 
 1. Deleting the file `/db/test.db`
 2. Changing the migration file (`/db/migrate.js`)
-3. Running `npm run migrate`
-4. If necessary, change the seed file (`/db/seed.js`) and run `npm run seed`
+3. Running `yarn run migrate`
+4. If necessary, change the seed file (`/db/seed.js`) and run `yarn run seed`
 
 # Server
 ## Technologies
